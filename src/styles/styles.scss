@@ -1,6 +1,7 @@
 // Setup
 @import "./setup/typography";
 @import "./setup/variables";
+@import "./setup/layout";
 
 // Basics
 @import "./basics/base";
@@ -8,3 +9,9 @@
 
 // Pages - Home
 @import "./pages/home/home";
+@import "./pages/home/cmps/header";
+@import "./pages/home/cmps/hero";
+@import "./pages/home/cmps/product-description";
+@import "./pages/home/cmps/success-stories";
+@import "./pages/home/cmps/ready";
+@import "./pages/home/cmps/footer";

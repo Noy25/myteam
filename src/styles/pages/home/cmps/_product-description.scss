@@ -1,0 +1,58 @@
+.product-description {
+    height: 684px;
+    background-color: $sub-color;
+    position: relative;
+
+    .container {
+        padding-top: 200px;
+        gap: 125px;
+
+        h2 {
+            font-size: 48px;
+            line-height: 48px;
+            width: 445px;
+        }
+
+        .cards-list {
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+            width: 540px;
+
+            .card-preview {
+                display: flex;
+                gap: 23px;
+                height: 94px;
+
+                img {
+                    display: block;
+                    width: 72px;
+                    aspect-ratio: 1/1;
+                    align-self: start;
+                }
+
+                .text-container {
+                    display: flex;
+                    flex-direction: column-reverse;
+
+                    h3 {
+                        font-size: 1rem;
+                        line-height: 28px;
+                        color: $accent-color;
+                    }
+                    
+                    p {
+                        font-size: 15px;
+                        margin-top: auto;
+                    }
+                }
+            }
+        }
+    }
+
+    .bg-pattern {
+        position: absolute;
+        bottom: 0;
+        right: -100px;
+    }
+}

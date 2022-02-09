@@ -5,7 +5,24 @@
 }
 
 html {
-    font-size: 16px;
+    font-size: 18px;
     font-family: $main-font;
+    font-weight: 600;
     color: $font-color;
+    line-height: 25px;
+}
+
+body {
+    background-color: $main-color;
+    overflow-x: hidden;
+}
+
+button {
+    font-size: 1rem;
+    font-family: $main-font;
+    font-weight: 600;
+    color: inherit;
+    background: transparent;
+    border: none;
+    cursor: pointer;
 }

@@ -1,0 +1,32 @@
+.home-footer {
+    background-color: #002529;
+
+    .main-container {
+        padding-block: 48px;
+
+        .container {
+            gap: 125px;
+
+            .left-wrapper {
+                gap: 25px;
+
+                .nav-links {
+                    gap: 40px;
+
+                    .nav-link {
+                        line-height: 28px;
+                    }
+                }
+            }
+        }
+
+        .social-links {
+            gap: 16px;
+        }
+    }
+
+    p {
+        font-size: 15px;
+        opacity: 0.6;
+    }
+}
