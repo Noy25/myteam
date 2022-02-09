@@ -1,7 +1,12 @@
 .hero {
-    margin-top: 129px;
-    margin-bottom: 250px;
-    gap: 30px;
+    padding-top: 129px;
+    position: relative;
+
+    .container {
+        gap: 30px;
+        padding-bottom: 250px;
+        position: relative;
+    }
 
     .jumbo {
         font-size: 100px;
@@ -16,5 +21,17 @@
     .text {
         width: 445px;
         line-height: 28px;
+    }
+
+    .bg-pattern-1 {
+        position: absolute;
+        top: 129px;
+        left: -100px;
+    }
+
+    .bg-pattern-2 {
+        position: absolute;
+        bottom: 0;
+        right: 0;
     }
 }
