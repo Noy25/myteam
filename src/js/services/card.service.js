@@ -6,6 +6,7 @@ import iconChart from '../../assets/images/home/icon-chart.svg';
 import avatarKady from '../../assets/images/home/avatar-kady.jpg';
 import avatarAiysha from '../../assets/images/home/avatar-aiysha.jpg';
 import avatarArthur from '../../assets/images/home/avatar-arthur.jpg';
+import iconQuotes from '../../assets/images/home/icon-quotes.svg';
 
 
 export const cardService = {
@@ -36,17 +37,20 @@ function query(cardsType) {
                 {
                     src: avatarKady,
                     title: 'Kady Baker',
-                    txt: '“The team perfectly fit the specialized skill set required. They focused on the most essential features helping us launch the platform eight months faster than planned.”'
+                    txt: '“The team perfectly fit the specialized skill set required. They focused on the most essential features helping us launch the platform eight months faster than planned.”',
+                    quotes: iconQuotes
                 },
                 {
                     src: avatarAiysha,
                     title: 'Aiysha Reese',
-                    txt: '“We needed to automate our entire onboarding process. The team came in and built out the whole journey. Since going live, user retention has gone through the roof!”'
+                    txt: '“We needed to automate our entire onboarding process. The team came in and built out the whole journey. Since going live, user retention has gone through the roof!”',
+                    quotes: iconQuotes
                 },
                 {
                     src: avatarArthur,
                     title: 'Arthur Clarke',
-                    txt: '“Amazing. Our team helped us build an app that delivered a new experience for hiring a physio. The launch was an instant success with 100k downloads in the first month.”'
+                    txt: '“Amazing. Our team helped us build an app that delivered a new experience for hiring a physio. The launch was an instant success with 100k downloads in the first month.”',
+                    quotes: iconQuotes
                 }
             ]
     }

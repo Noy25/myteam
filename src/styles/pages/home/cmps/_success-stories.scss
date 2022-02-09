@@ -39,11 +39,17 @@
                 }
             }
 
-            img {
+            img:first-child {
                 width: 62px;
                 aspect-ratio: 1/1;
                 border-radius: 50%;
                 border: 2px solid #c4fffe;
+            }
+
+            img:last-child {
+                position: relative;
+                top: 20px;
+                z-index: -1;
             }
         }
     }
