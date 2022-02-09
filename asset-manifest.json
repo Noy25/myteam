@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/myteam/static/css/main.918a4f7a.css",
+    "main.js": "/myteam/static/js/main.9679998b.js",
+    "static/media/Livvic-Bold.ttf": "/myteam/static/media/Livvic-Bold.089af19ac41ce144a96c.ttf",
+    "static/media/Livvic-SemiBold.ttf": "/myteam/static/media/Livvic-SemiBold.c79c53d29c413ab69adb.ttf",
+    "static/media/Livvic-Regular.ttf": "/myteam/static/media/Livvic-Regular.9994035d65e433690b4a.ttf",
+    "index.html": "/myteam/index.html",
+    "main.918a4f7a.css.map": "/myteam/static/css/main.918a4f7a.css.map",
+    "main.9679998b.js.map": "/myteam/static/js/main.9679998b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.918a4f7a.css",
+    "static/js/main.9679998b.js"
+  ]
+}
