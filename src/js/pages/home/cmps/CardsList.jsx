@@ -11,7 +11,7 @@ export function CardsList({ cardType }) {
 
     return (
         <div className="cards-list">
-            {cards.map(card => <CardPreview card={card} />)}
+            {cards.map(card => <CardPreview card={card} key={card.txt}/>)}
         </div>
     )
 }

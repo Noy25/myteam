@@ -1,10 +1,10 @@
 // Assets
-import logo from '../../../../assets/images/home/brand/logo.svg';
+import logo from '../../assets/images/home/brand/logo.svg';
 
-export function Header() {
+export function AppHeader() {
 
     return (
-        <header className="home-header">
+        <header className="app-header">
             <nav className="main-layout flex align-center">
                 <img src={logo} alt="logo" />
                 <div className="nav-links">

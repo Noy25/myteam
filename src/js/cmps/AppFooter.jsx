@@ -1,14 +1,14 @@
 // Assets
-import logo from '../../../../assets/images/home/brand/logo.svg';
-import iconFacebook from '../../../../assets/images/home/icons/icon-facebook.svg';
-import iconPinterest from '../../../../assets/images/home/icons/icon-pinterest.svg';
-import iconTwitter from '../../../../assets/images/home/icons/icon-twitter.svg';
+import logo from '../../assets/images/home/brand/logo.svg';
+import iconFacebook from '../../assets/images/home/icons/icon-facebook.svg';
+import iconPinterest from '../../assets/images/home/icons/icon-pinterest.svg';
+import iconTwitter from '../../assets/images/home/icons/icon-twitter.svg';
 
 
-export function Footer() {
+export function AppFooter() {
 
     return (
-        <footer className="home-footer">
+        <footer className="app-footer">
             <div className="main-layout main-container flex justify-between">
 
                 <div className="container flex">

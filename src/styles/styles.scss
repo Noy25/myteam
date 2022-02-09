@@ -11,10 +11,11 @@
 @import "./basics/buttons";
 
 // Pages - Home
-@import "./pages/home/home";
-@import "./pages/home/cmps/header";
 @import "./pages/home/cmps/hero";
 @import "./pages/home/cmps/product-description";
 @import "./pages/home/cmps/success-stories";
 @import "./pages/home/cmps/ready";
-@import "./pages/home/cmps/footer";
+
+// Cmps
+@import "./pages/home/cmps/app-header";
+@import "./pages/home/cmps/app-footer";
