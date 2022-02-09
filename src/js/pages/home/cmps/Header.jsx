@@ -1,4 +1,5 @@
-import logo from '../../../../assets/images/home/logo.svg';
+// Assets
+import logo from '../../../../assets/images/home/brand/logo.svg';
 
 export function Header() {
 
@@ -7,10 +8,10 @@ export function Header() {
             <nav className="main-layout flex align-center">
                 <img src={logo} alt="logo" />
                 <div className="nav-links">
-                    <a href="#" className="nav-link clean-link">home</a>
-                    <a href="#" className="nav-link clean-link">about</a>
+                    <a href="#" className="nav-link body-1 clean-link">home</a>
+                    <a href="#" className="nav-link body-1 clean-link">about</a>
                 </div>
-                <button className="btn-contact">contact us</button>
+                <button className="primary light">contact us</button>
             </nav>
         </header>
     )

@@ -1,7 +1,8 @@
-import logo from '../../../../assets/images/home/logo.svg';
-import iconFacebook from '../../../../assets/images/home/icon-facebook.svg';
-import iconPinterest from '../../../../assets/images/home/icon-pinterest.svg';
-import iconTwitter from '../../../../assets/images/home/icon-twitter.svg';
+// Assets
+import logo from '../../../../assets/images/home/brand/logo.svg';
+import iconFacebook from '../../../../assets/images/home/icons/icon-facebook.svg';
+import iconPinterest from '../../../../assets/images/home/icons/icon-pinterest.svg';
+import iconTwitter from '../../../../assets/images/home/icons/icon-twitter.svg';
 
 
 export function Footer() {
@@ -14,16 +15,16 @@ export function Footer() {
                     <div className="left-wrapper flex column">
                         <img src={logo} alt="Logo" />
                         <nav className="nav-links flex">
-                            <a href="#" className="nav-link clean-link">home</a>
-                            <a href="#" className="nav-link clean-link">about</a>
+                            <a href="#" className="body-1 clean-link">home</a>
+                            <a href="#" className="body-1 clean-link">about</a>
                         </nav>
                     </div>
 
                     <div className="right-wrapper">
-                        <p>987  Hillcrest Lane</p>
-                        <p>Irvine, CA</p>
-                        <p>California 92714</p>
-                        <p>Call Us : 949-833-7432</p>
+                        <p className="body-2 muted">987  Hillcrest Lane</p>
+                        <p className="body-2 muted">Irvine, CA</p>
+                        <p className="body-2 muted">California 92714</p>
+                        <p className="body-2 muted">Call Us : 949-833-7432</p>
                     </div>
                 </div>
 
@@ -33,7 +34,7 @@ export function Footer() {
                         <img src={iconPinterest} alt="Pinterest" />
                         <img src={iconTwitter} alt="Twitter" />
                     </div>
-                    <p>Copyright 2020. All Rights Reserved</p>
+                    <p className="body-2 muted">Copyright 2020. All Rights Reserved</p>
                 </div>
 
             </div>

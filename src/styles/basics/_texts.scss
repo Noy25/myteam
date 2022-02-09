@@ -1,0 +1,13 @@
+p, a {
+    font-weight: 600;
+
+    &.body-1 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    &.body-2 {
+        font-size: 15px;
+        line-height: 25px;
+    }
+}

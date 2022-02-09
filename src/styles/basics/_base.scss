@@ -5,24 +5,35 @@
 }
 
 html {
-    font-size: 18px;
+    font-size: 16px;
     font-family: $main-font;
-    font-weight: 600;
-    color: $font-color;
-    line-height: 25px;
+    color: $primary-color-3;
 }
 
 body {
-    background-color: $main-color;
+    background-color: $primary-color-1;
     overflow-x: hidden;
 }
 
-button {
-    font-size: 1rem;
-    font-family: $main-font;
-    font-weight: 600;
-    color: inherit;
-    background: transparent;
-    border: none;
-    cursor: pointer;
+::-webkit-scrollbar {
+    width: 15px;
+    cursor: default;
+}
+
+::-webkit-scrollbar-track {
+    background: lightgray;
+    border-radius: 10px;
+    margin-block: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #b4b4b4;
+    border-radius: 10px;
+    border: 3px solid lightgray;
+
+    transition: 200ms;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a0a0a0;
 }

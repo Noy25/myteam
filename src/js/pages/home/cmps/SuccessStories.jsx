@@ -1,6 +1,8 @@
+// Cmps
 import { CardsList } from './CardsList';
-import bgPattern1 from '../../../../assets/images/home/bg-pattern-home-4-about-3.svg';
-import bgPattern2 from '../../../../assets/images/home/bg-pattern-home-5.svg';
+// Assets
+import bgPattern4 from '../../../../assets/images/home/bg-patterns/bg-pattern-home-4-about-3.svg';
+import bgPattern5 from '../../../../assets/images/home/bg-patterns/bg-pattern-home-5.svg';
 
 
 export function SuccessStories() {
@@ -11,8 +13,8 @@ export function SuccessStories() {
                 <h2>Delivering real results for top companies. Some of our <span>success stories.</span></h2>
                 <CardsList cardType='stories' />
             </div>
-            <img src={bgPattern1} alt="Pattern" className="pattern-1" />
-            <img src={bgPattern2} alt="Pattern" className="pattern-2" />
+            <img src={bgPattern4} alt="Pattern" className="bg-pattern-4" />
+            <img src={bgPattern5} alt="Pattern" className="bg-pattern-5" />
         </section>
     )
 }

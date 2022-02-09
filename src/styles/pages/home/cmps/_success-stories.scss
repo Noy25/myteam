@@ -3,14 +3,12 @@
     position: relative;
 
     h2 {
-        font-size: 48px;
-        line-height: 48px;
         text-align: center;
         width: 932px;
         margin: 0 auto 56px;
 
         span {
-            color: #79c8c7;
+            color: $secondary-color-1;
         }
     }
 
@@ -24,15 +22,13 @@
             align-items: center;
 
             .text-container {
-                p {
-                    font-size: 15px;
+                p,
+                h3 {
                     text-align: center;
                 }
 
                 h3 {
-                    text-align: center;
-                    font-size: 1rem;
-                    color: #79c8c7;
+                    color: $secondary-color-1;
                     height: 48px;
                     margin-top: 24px;
                     margin-bottom: 32px;
@@ -54,12 +50,12 @@
         }
     }
 
-    .pattern-1 {
+    .bg-pattern-4 {
         position: absolute;
         top: 0;
         left: 0;
     }
-    .pattern-2 {
+    .bg-pattern-5 {
         position: absolute;
         bottom: 0;
         right: 0;

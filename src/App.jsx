@@ -1,5 +1,6 @@
-// Cmps
+// Pages
 import { Home } from './js/pages/home/Home';
+// Cmps
 
 
 export function App() {

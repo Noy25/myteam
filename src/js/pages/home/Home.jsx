@@ -1,3 +1,4 @@
+// Cmps
 import { Header } from './cmps/Header';
 import { Hero } from './cmps/Hero';
 import { ProductDescription } from './cmps/ProductDescription';

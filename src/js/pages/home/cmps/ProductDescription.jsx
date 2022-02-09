@@ -1,5 +1,7 @@
+// Cmps
 import { CardsList } from './CardsList';
-import bgPattern from '../../../../assets/images/home/bg-pattern-home-3.svg';
+// Assets
+import bgPattern3 from '../../../../assets/images/home/bg-patterns/bg-pattern-home-3.svg';
 
 
 export function ProductDescription() {
@@ -10,7 +12,7 @@ export function ProductDescription() {
                 <h2>Build & manage distributed teams like no one else.</h2>
                 <CardsList cardType='product'/>
             </div>
-            <img src={bgPattern} alt="Pattern" className="bg-pattern" />
+            <img src={bgPattern3} alt="Pattern" className="bg-pattern-3" />
         </section>
     )
 }
