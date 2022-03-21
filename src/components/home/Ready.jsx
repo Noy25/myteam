@@ -1,5 +1,5 @@
 // Assets
-import bgPattern6 from '../../../../assets/images/home/bg-patterns/bg-pattern-home-6-about-5.svg';
+import bgPattern6 from '../../assets/images/home/bg-patterns/bg-pattern-home-6-about-5.svg';
 
 
 export function Ready() {

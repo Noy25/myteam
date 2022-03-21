@@ -1,5 +1,5 @@
 // Services
-import { cardService } from '../../../services/card.service';
+import { cardService } from '../../services/card.service';
 // Cmps
 import { CardPreview } from './CardPreview';
 

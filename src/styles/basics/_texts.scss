@@ -1,4 +1,5 @@
-p, a {
+p,
+a {
     font-weight: 600;
 
     &.body-1 {
@@ -10,4 +11,8 @@ p, a {
         font-size: 15px;
         line-height: 25px;
     }
+}
+
+a:hover {
+    color: $primary-color-2;
 }

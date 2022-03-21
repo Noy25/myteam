@@ -1,8 +1,10 @@
+// React
+import { Link } from 'react-router-dom';
 // Assets
-import logo from '../../assets/images/home/brand/logo.svg';
-import iconFacebook from '../../assets/images/home/icons/icon-facebook.svg';
-import iconPinterest from '../../assets/images/home/icons/icon-pinterest.svg';
-import iconTwitter from '../../assets/images/home/icons/icon-twitter.svg';
+import logo from '../assets/images/home/brand/logo.svg';
+import iconFacebook from '../assets/images/home/icons/icon-facebook.svg';
+import iconPinterest from '../assets/images/home/icons/icon-pinterest.svg';
+import iconTwitter from '../assets/images/home/icons/icon-twitter.svg';
 
 
 export function AppFooter() {
@@ -13,10 +15,10 @@ export function AppFooter() {
 
                 <div className="container flex">
                     <div className="left-wrapper flex column">
-                        <img src={logo} alt="Logo" />
+                        <Link to="/"><img src={logo} alt="Logo" /></Link>
                         <nav className="nav-links flex">
-                            <a href="#" className="body-1 clean-link">home</a>
-                            <a href="#" className="body-1 clean-link">about</a>
+                            <Link to="/" className="body-1 clean-link">home</Link>
+                            <Link to="/about" className="body-1 clean-link">about</Link>
                         </nav>
                     </div>
 

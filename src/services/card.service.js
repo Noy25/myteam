@@ -1,12 +1,12 @@
 // Product Cards
-import iconPerson from '../../assets/images/home/icons/icon-person.svg';
-import iconCog from '../../assets/images/home/icons/icon-cog.svg';
-import iconChart from '../../assets/images/home/icons/icon-chart.svg';
+import iconPerson from '../assets/images/home/icons/icon-person.svg';
+import iconCog from '../assets/images/home/icons/icon-cog.svg';
+import iconChart from '../assets/images/home/icons/icon-chart.svg';
 // Stories Cards
-import avatarKady from '../../assets/images/home/avatars/avatar-kady.jpg';
-import avatarAiysha from '../../assets/images/home/avatars/avatar-aiysha.jpg';
-import avatarArthur from '../../assets/images/home/avatars/avatar-arthur.jpg';
-import iconQuotes from '../../assets/images/home/icons/icon-quotes.svg';
+import avatarKady from '../assets/images/home/avatars/avatar-kady.jpg';
+import avatarAiysha from '../assets/images/home/avatars/avatar-aiysha.jpg';
+import avatarArthur from '../assets/images/home/avatars/avatar-arthur.jpg';
+import iconQuotes from '../assets/images/home/icons/icon-quotes.svg';
 
 
 export const cardService = {

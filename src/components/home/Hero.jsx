@@ -1,6 +1,6 @@
 // Assets
-import bgPattern1 from '../../../../assets/images/home/bg-patterns/bg-pattern-home-1.svg';
-import bgPattern2 from '../../../../assets/images/home/bg-patterns/bg-pattern-home-2.svg';
+import bgPattern1 from '../../assets/images/home/bg-patterns/bg-pattern-home-1.svg';
+import bgPattern2 from '../../assets/images/home/bg-patterns/bg-pattern-home-2.svg';
 
 
 export function Hero() {

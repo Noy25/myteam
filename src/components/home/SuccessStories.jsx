@@ -1,8 +1,8 @@
 // Cmps
 import { CardsList } from './CardsList';
 // Assets
-import bgPattern4 from '../../../../assets/images/home/bg-patterns/bg-pattern-home-4-about-3.svg';
-import bgPattern5 from '../../../../assets/images/home/bg-patterns/bg-pattern-home-5.svg';
+import bgPattern4 from '../../assets/images/home/bg-patterns/bg-pattern-home-4-about-3.svg';
+import bgPattern5 from '../../assets/images/home/bg-patterns/bg-pattern-home-5.svg';
 
 
 export function SuccessStories() {
