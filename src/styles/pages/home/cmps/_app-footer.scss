@@ -4,8 +4,17 @@
     .main-container {
         padding-block: 48px;
 
+        @include for-tablet-layout {
+            gap: 32px;
+            flex-direction: column;
+        }
+
         .container {
             gap: 125px;
+
+            @include for-tablet-layout {
+                justify-content: space-between;
+            }
 
             .left-wrapper {
                 gap: 25px;
@@ -14,10 +23,21 @@
                     gap: 40px;
                 }
             }
+
+            .right-wrapper {
+                @include for-tablet-layout {
+                    text-align: end;
+                }
+            }
         }
 
-        .social-links {
-            gap: 16px;
+        & > div:last-child {
+            .social-links {
+                gap: 16px;
+            }
+            @include for-tablet-layout {
+                flex-direction: row;
+            }
         }
     }
 }

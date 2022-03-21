@@ -6,10 +6,20 @@
         gap: 30px;
         padding-bottom: 250px;
         position: relative;
+
+        @include for-tablet-layout {
+            flex-direction: column;
+            text-align: center;
+        }
     }
 
     h1 {
         width: 635px;
+
+        @include for-tablet-layout {
+            font-size: 64px;
+            line-height: 56px;
+        }
 
         span {
             color: $primary-color-2;
@@ -19,6 +29,12 @@
     p {
         width: 445px;
 
+        @include for-tablet-layout {
+            align-self: center !important;
+            width: 457px;
+            font-size: 15px;
+        }
+
         &::before {
             content: "";
             display: block;
@@ -27,6 +43,10 @@
             background-color: #79c8c7;
             position: relative;
             bottom: 79px;
+
+            @include for-tablet-layout {
+                display: none;
+            }
         }
     }
 
@@ -34,11 +54,20 @@
         position: absolute;
         top: 129px;
         left: -100px;
+
+        @include for-tablet-layout {
+            display: none;
+        }
     }
 
     .bg-pattern-2 {
         position: absolute;
         bottom: 0;
         right: 0;
+
+        @include for-tablet-layout {
+            right: 50%;
+            transform: translateX(50%);
+        }
     }
 }

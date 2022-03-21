@@ -7,6 +7,12 @@
         width: 932px;
         margin: 0 auto 56px;
 
+        @include for-tablet-layout {
+            font-size: 32px;
+            line-height: 32px;
+            width: 456px;
+        }
+
         span {
             color: $secondary-color-1;
         }
@@ -15,6 +21,12 @@
     .cards-list {
         display: flex;
         gap: 30px;
+
+        @include for-tablet-layout {
+            flex-direction: column;
+            width: 573px;
+            margin: auto;
+        }
 
         .card-preview {
             display: flex;
@@ -32,6 +44,10 @@
                     height: 48px;
                     margin-top: 24px;
                     margin-bottom: 32px;
+
+                    @include for-tablet-layout {
+                        margin-block: 16px;
+                    }
                 }
             }
 

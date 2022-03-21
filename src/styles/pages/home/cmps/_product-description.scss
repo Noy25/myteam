@@ -1,16 +1,26 @@
 .product-description {
-    height: 684px;
     background-color: $secondary-color-4;
     position: relative;
 
     .container {
-        padding-top: 200px;
+        padding: 198px 0 140px;
         gap: 125px;
+
+        @include for-tablet-layout {
+            flex-direction: column;
+            padding: 158px 0 100px;
+            gap: 64px;
+        }
 
         h2 {
             font-size: 48px;
             line-height: 48px;
             width: 445px;
+
+            @include for-tablet-layout {
+                font-size: 32px;
+                line-height: 32px;
+            }
 
             &::before {
                 content: "";
@@ -48,7 +58,7 @@
                     h3 {
                         color: $primary-color-2;
                     }
-                    
+
                     p {
                         margin-top: auto;
                     }
@@ -61,5 +71,9 @@
         position: absolute;
         bottom: 0;
         right: -100px;
+
+        @include for-tablet-layout {
+            top: 0;
+        }
     }
 }

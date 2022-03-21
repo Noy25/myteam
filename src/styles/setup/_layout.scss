@@ -1,4 +1,8 @@
 .main-layout {
     max-width: 1110px;
     margin: 0 auto;
+
+    @include for-tablet-layout {
+        max-width: 689px;
+    }
 }

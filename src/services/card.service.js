@@ -19,6 +19,7 @@ function query(cardsType) {
             return [
                 {
                     src: iconPerson,
+                    title: 'Experienced Individuals',
                     txt: 'Our network is made up of highly experienced professionals who are passionate about what they do.'
                 },
                 {
